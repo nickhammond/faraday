@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require 'faraday/middleware_registry'
+require 'faraday/dependency_loader'
+
 module Faraday
   # Middleware is the basic base class of any Faraday middleware.
   class Middleware
